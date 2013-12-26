@@ -3,6 +3,7 @@ package com.example.gitsample2ichi;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
@@ -11,7 +12,10 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		//くしゅ。
+		Button bt;
+		bt = (Button)findViewById(R.id.button1);
+
+
 	}
 
 	@Override
